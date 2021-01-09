@@ -1,6 +1,6 @@
 """Python currencies"""
 
-__version__ = "1.2.0"
+__version__ = "1.2.1"
 
 
 from .core.country import (
@@ -94,6 +94,5 @@ def g10():
 
 
 def g10m():
-    """modified g10 = G10 + AUD, NZD, NOK
-    """
+    """modified g10 = G10 + AUD, NZD, NOK"""
     return g10() + ["AUD", "NZD", "NOK"]
